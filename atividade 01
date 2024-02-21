@@ -1,0 +1,33 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+        
+         
+        String nome; 
+        String sobrenome;
+        int idade = 22;
+        double altura  = 1.75;
+        char sexo = 'M';
+        int CEP = 85610601;
+        String cidade;
+        boolean falso = true; 
+        boolean verdadeiro = true; 
+        boolean sim = true;
+       
+       nome = "Guilherme"; 
+       sobrenome = "Adriel";
+       cidade = "Francisco Beltrao";
+        
+        
+     System.out.println ("Nome:" + nome);
+     System.out.println ("Sobrenome:" + sobrenome);
+     System.out.println ("Qual sua Idade:" + idade);
+     System.out.println ("Qual sua Altura:" + altura);
+     System.out.println ("Qual seu sexo?" + sexo);
+     System.out.println ("CEP:" + CEP);
+     System.out.println ("Onde mora?:" + cidade);
+     System.out.println ("Estuda na Unipar?" + falso);
+     System.out.println ("Tem algum animal?" + verdadeiro);
+     System.out.println ("Trabalha?" + sim );
+    }
+}
